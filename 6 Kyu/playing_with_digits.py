@@ -34,7 +34,4 @@ def dig_pow(n, p):
             p += 1
     k = r / n
 
-    if k % 1 != 0:
-        return -1
-    else:
-        return k
+    return -1 if k % 1 != 0 else k
