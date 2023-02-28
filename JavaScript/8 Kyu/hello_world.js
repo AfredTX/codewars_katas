@@ -19,6 +19,6 @@ When you have finished the work, click "Run Tests" to see if your code is workin
 In the end, click "Submit" to submit your code pass this kata.*/
 
 function helloWorld(){
-  var statement = "Hello World!"
-  console.log(statement)
+  var str = "Hello World!";
+  console.log(str);
 }
